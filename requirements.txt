@@ -1,0 +1,12 @@
+# Reconstructed from the imports in the original submission.
+# The exact versions used at submission time (2025-04-07) were not recorded
+# anywhere in the artefact. These are pinned to releases available in the
+# weeks before that date, so they exercise the same APIs the code relies on
+# (rdFingerprintGenerator.GetMorganGenerator, Descriptors.CalcMolDescriptors,
+# roc_auc_score(multi_class='ovr')). Treat them as "known to work", not as
+# the original environment.
+numpy==2.2.4
+pandas==2.2.3
+scikit-learn==1.6.1
+lightgbm==4.6.0
+rdkit==2024.9.6

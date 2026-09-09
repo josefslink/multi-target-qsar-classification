@@ -1,0 +1,23 @@
+# environments
+.venv/
+.venv-test/
+venv/
+__pycache__/
+*.pyc
+
+# data (challenge data is not redistributable; never committed)
+data/*.csv
+data/*.pkl
+!data/README.md
+
+# generated artifacts from the original submission, and from running this repo
+submissions/
+models/
+QSAR Challenge/
+training_auc_log.txt
+*.pkl
+
+# generic
+*.csv
+!results/*.csv
+.DS_Store
